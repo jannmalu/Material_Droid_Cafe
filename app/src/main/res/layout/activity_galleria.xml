@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Galleria">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/stores"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp">
+
+        <RelativeLayout
+            android:id="@+id/store_card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/galleria_image"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:adjustViewBounds="true"/>
+            <TextView
+                android:id="@+id/galleria_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/galleria_image"
+                android:text="@string/store_name"
+                android:padding="10dp"
+                android:layout_marginTop="10dp"
+                android:theme="@style/ThemeOverlay.AppCompat.Light"
+                android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                android:background="@color/colorMaroon"
+                android:textColor="@color/colorWhite"/>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <ScrollView
+        android:id="@+id/store_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/stores">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/galleria"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/about_galleria"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/colorMaroon"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/galleria_about"
+            android:layout_below="@id/galleria"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_vertical|end"
+            android:text="@string/galleria_details"/>
+
+        <TextView
+            android:id="@+id/about_text"
+            android:layout_below="@id/galleria_about"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/our_scope"
+            android:textAlignment="center"
+            android:textColor="@color/colorMaroon"
+            android:textAllCaps="true"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:layout_below="@id/about_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/galleria_scope"
+            android:layout_gravity="center_vertical|end"/>
+    </RelativeLayout>
+
+    </ScrollView>
+
+
+
+</RelativeLayout>

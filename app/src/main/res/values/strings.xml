@@ -1,0 +1,375 @@
+<resources>
+    <string name="app_name">Droid Cafe</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_dessert_recipes">Hello Dessert Recipes</string>
+    <string name="hello_pastries_recipes">Hello Pastries Recipes</string>
+    <string name="hello_stores_fragment">Hello Stores Fragment</string>
+
+    <string name="tab_1">Desserts</string>
+    <string name="tab_2">Pastries</string>
+    <string name="tab_3">Stores</string>
+    <string name="dessert_recipes">Dessert Recipes</string>
+    <string name="browse_our_dessert_recipes">Browse Our Dessert Recipes</string>
+    <string name="recipe_title">Recipe Title</string>
+    <string name="prep_and_cook_time_2hrs">Prep and Cook Time: 2hrs</string>
+    <string name="recipe_description">Recipe Description</string>
+    <string name="how_to_prepare_donuts">How to Prepare Donuts</string>
+    <string name="pastries_recipes">Pastries Recipes</string>
+    <string name="browse_our_pastries_recipes">Browse our pastries recipes</string>
+    <string name="droid_cafe_stores">Droid Cafe Stores</string>
+    <string name="rate_our_stores">Rate our stores</string>
+    <string name="store_name">Store Name</string>
+    <string name="opens_daily_from_8_00_a_m">Opens daily from 8:00 a.m</string>
+    <string name="store_description">Store Description</string>
+    <string name="like">Like</string>
+    <string name="comment">Comment</string>
+    <string name="share">Share</string>
+    <string name="about_galleria">About Galleria</string>
+    <string name="desserts">Desserts</string>
+    <string name="pastries">Pastries</string>
+    <string name="stores">Stores</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="about_us">About Us</string>
+    <string name="share_app">Share App</string>
+    <string name="janice_malu">Janice Malu</string>
+    <string name="janice_malu_strathmore_edu">janice.malu@strathmore.edu</string>
+
+    <array name="dessert_images">
+        <item>@drawable/cone</item>
+        <item>@drawable/donut</item>
+        <item>@drawable/froyo</item>
+        <item>@drawable/cone</item>
+        <item>@drawable/donut</item>
+        <item>@drawable/froyo</item>
+        <item>@drawable/cone</item>
+        <item>@drawable/donut</item>
+        <item>@drawable/froyo</item>
+    </array>
+
+    <string-array name="dessert_title">
+        <item>Ice cream Cone</item>
+        <item>Donut</item>
+        <item>Frozen Yogurt</item>
+        <item>Ice cream Cone</item>
+        <item>Donut</item>
+        <item>Frozen Yogurt</item>
+        <item>Ice cream Cone</item>
+        <item>Donut</item>
+        <item>Frozen Yogurt</item>
+    </string-array>
+
+    <string-array name="dessert_descriptions">
+        <item>Ice cream has chocolate and vanilla filling</item>
+        <item>Donuts are glazed and sprinkled with candy</item>
+        <item>Froyo is a premium self-serve frozen yogurt</item>
+        <item>Ice cream has chocolate and vanilla filling</item>
+        <item>Donuts are glazed and sprinkled with candy</item>
+        <item>Froyo is a premium self-serve frozen yogurt</item>
+        <item>Ice cream has chocolate and vanilla filling</item>
+        <item>Donuts are glazed and sprinkled with candy</item>
+        <item>Froyo is a premium self-serve frozen yogurt</item>
+    </string-array>
+
+    <array name="pastries_images">
+        <item>@drawable/cookies</item>
+        <item>@drawable/croissant</item>
+        <item>@drawable/waffles</item>
+        <item>@drawable/cookies</item>
+        <item>@drawable/croissant</item>
+        <item>@drawable/waffles</item>
+        <item>@drawable/cookies</item>
+        <item>@drawable/croissant</item>
+        <item>@drawable/waffles</item>
+    </array>
+
+    <string-array name="pastries_title">
+        <item>Cookies</item>
+        <item>Croissant</item>
+        <item>Waffles</item>
+        <item>Cookies</item>
+        <item>Croissant</item>
+        <item>Waffles</item>
+        <item>Cookies</item>
+        <item>Croissant</item>
+        <item>Waffles</item>
+    </string-array>
+
+    <string-array name="pastries_descriptions">
+        <item>Cookies with chocolate chips inside</item>
+        <item>Croissants made with almond</item>
+        <item>Waffles topped with vanilla and chocolate ice cream</item>
+        <item>Cookies with chocolate chips inside</item>
+        <item>Croissants made with almond</item>
+        <item>Waffles topped with vanilla and chocolate ice cream</item>
+        <item>Cookies with chocolate chips inside</item>
+        <item>Croissants made with almond</item>
+        <item>Waffles topped with vanilla and chocolate ice cream</item>
+    </string-array>
+
+    <array name="stores_images">
+        <item>@drawable/galleria</item>
+        <item>@drawable/west_gate</item>
+        <item>@drawable/sarit_center</item>
+        <item>@drawable/galleria</item>
+        <item>@drawable/west_gate</item>
+        <item>@drawable/sarit_center</item>
+        <item>@drawable/galleria</item>
+        <item>@drawable/west_gate</item>
+        <item>@drawable/sarit_center</item>
+    </array>
+
+    <string-array name="store_titles">
+        <item>Galleria</item>
+        <item>Sarit Centre</item>
+        <item>West Gate</item>
+        <item>Galleria</item>
+        <item>Sarit Centre</item>
+        <item>West Gate</item>
+        <item>Galleria</item>
+        <item>Sarit Centre</item>
+        <item>West Gate</item>
+    </string-array>
+
+    <string-array name="store_descriptions">
+        <item>Enjoy the outside seating at Galleria, conveniently in th centre of the mall to enjoy a coffee after shopping, family meal or evening cocktails.</item>
+        <item>Beautifully bright and open, this Droid Cafe comes to life with its funky design and cool movie posters dotted along the walls.</item>
+        <item>Conveniently located in this busy central mall, West Gate is bright with modern decor, unique artwork and a large outside seating.</item>
+        <item>Enjoy the outside seating at Galleria, conveniently in th centre of the mall to enjoy a coffee after shopping, family meal or evening cocktails.</item>
+        <item>Beautifully bright and open, this Droid Cafe comes to life with its funky design and cool movie posters dotted along the walls.</item>
+        <item>Conveniently located in this busy central mall, West Gate is bright with modern decor, unique artwork and a large outside seating.</item>
+        <item>Enjoy the outside seating at Galleria, conveniently in th centre of the mall to enjoy a coffee after shopping, family meal or evening cocktails.</item>
+        <item>Beautifully bright and open, this Droid Cafe comes to life with its funky design and cool movie posters dotted along the walls.</item>
+        <item>Conveniently located in this busy central mall, West Gate is bright with modern decor, unique artwork and a large outside seating.</item>
+    </string-array>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="icon">Icon</string>
+    <string name="pizzas">Pizzas</string>
+    <string name="burgers">Burgers</string>
+    <string name="cocktails">Cocktails</string>
+    <string name="burgers_page">Burgers Page</string>
+    <string name="cocktails_page">Cocktails Page</string>
+    <string name="pizzas_page">Pizzas Page</string>
+    <string name="ingredients">Ingredients</string>
+
+    <string-array name="dessert_ingredients">
+        <item>• 3/4 cup white sugar \n
+            • 1 cup heavy whipping cream \n
+            • 2 1/4 cups milk \n
+            • 2 teaspoons vanilla extract</item>
+        <item>• 1 c. whole milk \n
+            • 1/4 c. plus 1 tsp. granulated sugar, divided \n
+            • 1 packet (or 2 1/4 tsp.) active dry yeast \n
+            • 4 1/2 c. all-purpose flour, plus more for surface \n
+            • 1/2 tsp. kosher salt \n
+            • 6 tbsp. melted butter \n
+            • 2 large eggs \n
+            • 1/2 tsp. pure vanilla extract \n
+            • Canola or vegetable oil, for frying</item>
+
+        <item>• 1 quart (about 3 cups) whole-milk plain yogurt \n
+            • 1/2 cup heavy cream \n
+            • 3/4 to 1 cup sugar, honey, or other sweetener \n
+            • 1 tablespoon corn syrup, optional for smoother frozen yogurt</item>
+    </string-array>
+
+    <string-array name="dessert_steps">
+        <item>
+            1. Stir sugar, cream, and milk into a saucepan over low heat until sugar has dissolved.
+            Heat just until mix is hot and a small ring of foam appears around the edge. \n \n
+            2. Transfer cream mixture to a pourable container such as a large measuring cup.
+            Stir in vanilla extract and chill mix thoroughly, at least 2 hours. \n \n
+            3. Pour cold ice cream mix into an ice cream maker, turn on the machine, and churn according
+            to the directions, 20 to 25 minutes. \n \n
+            4. When ice cream is softly frozen, serve immediately or place a piece of plastic wrap
+            directly on the ice cream and place in freezer to ripen, 2 to 3 hours
+        </item>
+
+        <item>
+            1. Grease a large bowl with cooking spray and set aside. In a small, microwave-safe bowl or glass measuring cup, add milk.
+            Microwave until lukewarm, 40 seconds. Add a teaspoon of sugar and stir to dissolve, then sprinkle over yeast and let sit
+            until frothy, about 8 minutes. \n \n
+            2. In a medium bowl, whisk together flour and salt. In a large bowl, whisk together remaining sugar, butter, eggs, and
+            vanilla with a wooden spoon. Pour in yeast mixture, mix to combine, then add in dry ingredients, stirring with a wooden
+            spoon until a shaggy dough forms. Transfer to a lightly floured surface and knead until elastic and only slightly tacky,
+            adding more flour a teaspoon at a time if needed, about 5 minutes.\n \n
+            3. Form into a tight ball then place dough in oiled bowl and cover with a clean dish towel. Let dough rise in a warm spot
+            in your kitchen until doubled in size, about 1 hour.\n \n
+            4. Line a large baking sheet with parchment. Punch down dough, then turn onto a lightly floured work surface and roll out
+            into a 1/2 thick rectangle. Using a doughnut cutter or 3 and 1 biscuit cutters, punch out your doughnuts. Re-knead scraps
+            together and punch out as well. Place doughnuts and holes onto baking sheets, cover with dish towel, and let rise again,
+            about 40 minutes more.\n \n
+            5. Line a large baking sheet with paper towels. In a large dutch oven over medium heat, heat oil to 350°. Cook doughnuts,
+            in batches, until deeply golden on both sides, about 1 minute per side. Holes will cook even faster! \n \n
+            6. Transfer doughnuts to paper towel-lined baking sheet to drain and cool slightly. Dip into glaze, then  place onto a cooling
+            rack or eat immediately!
+        </item>
+        <item>
+            1. Freeze the bowl of your ice cream maker 24 hours in advance.\n \n
+            2. Whisk together all the ingredients. Combine the yogurt, heavy cream and sweetener in a bowl. Whisk until the heavy cream
+            and the sweetener are fully mixed in for 1 to 2 minutes. If granulated sugar is used then the mixture should feel smooth between the fingers.\n \n
+            3. Refrigerate. If the yogurt mixture is warm at all or if you want to wait to churn it for any reason then cover itt and place it in the fridge until it has cooled
+            to fridge temperature again. If your ingredients have only been out of the fridge a few minutes, another chilling is not necessary.\n \n
+            4. Churn the yogurt until thick. Pour the yogurt base into the ice cream machine. Churn until the yogurt has thickened to the texture of soft-serve or a thick
+            milkshake for 17 to 20 minutes on most machines.\n \n
+            5. Scoop into a freezer container. Smooth the top. Press a piece of parchment against the top of the yogurt to prevent ice crystals from forming.\n \n
+            6. Freeze until hard for at least 6 hours or overnight.\n \n
+            7. Serve the frozen yogurt.\n \n
+            8. Let the frozen yogurt sit on the counter for 20 to 30 minutes when you are ready to serve until just soft enough to scoop. Use long,swallow strokes to form balls of
+            frozen yogurt and serve right away.
+        </item>
+    </string-array>
+
+    <string name="the_steps">The Steps</string>
+    <string name="enjoy">Enjoy</string>
+    <string name="how_to_prepare_cookies">How to prepare cookies</string>
+
+    <string-array name="pastries_ingredients">
+        <item>• 2 1/4 cups Gold Medal™ all-purpose flour \n
+        • 1 teaspoon baking soda \n
+        • 1/2 teaspoon salt \n
+        • 1 cup butter, softened \n
+        • 3/4 cup granulated sugar \n
+        • 3/4 cup packed brown sugar \n
+        • 1 egg \n
+        • 1 teaspoon vanilla \n
+        • 2 cups semisweet chocolate chips \n
+            • 1 cup coarsely chopped nuts, if desired</item>
+
+        <item>• 4 cups all-purpose flour\n
+            • 1/3 cup granulated sugar\n
+            • 4 teaspoons active dry yeast \n
+            • 2 1/4 teaspoons kosher salt \n
+            • 1 1/4 cups unsalted butter, cold (2 1/2 sticks) \n
+            • 1 cup milk (you may need slightly more or less) \n
+            • Egg wash (1 large egg beaten with a teaspoon or two of water)</item>
+
+        <item>
+            • 2 cups all-purpose flour \n
+            • 1 teaspoon salt \n
+            • 4 teaspoons baking powder \n
+            • 2 tablespoons white sugar \n
+            • 2 eggs \n
+            • 1 1/2 cups warm milk \n
+            • 1/3 cup butter, melted \n
+            • 1 teaspoon vanilla extract
+        </item>
+    </string-array>
+
+    <string-array name="pastries_steps">
+        <item> 1. Heat oven to 375°F. In small bowl, mix flour, baking soda and salt; set aside. \n \n
+        2. In large bowl, beat softened butter and sugars with electric mixer on medium speed, or mix with spoon about 1 minute or until fluffy, scraping side of bowl occasionally. \n \n
+        3. Beat in egg and vanilla until smooth. Stir in flour mixture just until blended (dough will be stiff). Stir in chocolate chips and nuts. \n \n
+        4. Onto ungreased cookie sheets, drop dough by rounded tablespoonfuls 2 inches apart. \n \n
+        5. Bake 8 to 10 minutes or until light brown (centers will be soft). Cool 2 minutes; remove from cookie sheet to cooling rack. Cool completely, about 30 minutes.
+            Store covered in airtight container. </item>
+        <item>
+            1. Place the flour, sugar, yeast, and salt in a large bowl and whisk together until combined. \n \n
+            2. Slice the butter into 1/8-inch thick slices and toss in the flour mixture to coat. \n \n
+            3. Add the milk and stir together until a stiff dough forms. \n \n
+            4. Wrap the dough tightly in plastic wrap and chill for 1 hour. \n \n
+            5. On a lightly floured surface, roll the dough into a long rectangle shape.  \n \n
+            6. Fold it into thirds (like a letter), turn 90 degrees, and repeat 4 to 6 more times,
+            or until the dough has large streaks of butter in it but it is smooth and flat. (If at any point the butter starts to feel soft,
+            chill it in the refrigerator or freezer until stiff.) \n \n
+            7. Wrap tightly and chill for 1 more hour, then divide the dough in half and roll each portion out to a thickness of about 1/8-inch, in a long rectangle shape (approx. 10-inches wide by 22-inches long). \n \n
+            8. Cut the dough into long, skinny triangles (about 5-inches at the wide end). \n \n
+            9. Notch the wide end of each triangle with about a 1/2-inch cut, then roll from the wide end to the pointed end, tucking the point under the croissant. \n \n
+            10. Place on a parchment-lined baking sheet, cover loosely with plastic wrap, and allow to proof until doubled in size (1 to 2 hours). \n \n
+            11. Preheat the oven to 375 degrees F, and gently brush the croissants with egg wash.\n \n
+            12. Bake for 15 to 20 minutes, or until puffed, golden brown, and flaky.
+        </item>
+
+        <item>
+            1. In a large bowl, mix together flour, salt, baking powder and sugar; set aside. Preheat waffle iron to desired temperature. \n \n
+            2. In a separate bowl, beat the eggs. Stir in the milk, butter and vanilla. Pour the milk mixture into the flour mixture; beat until blended. \n \n
+            3. Ladle the batter into a preheated waffle iron. Cook the waffles until golden and crisp. Serve immediately.
+        </item>
+    </string-array>
+
+    <string name="galleria_details">
+        If you are looking for a shopping experience that will truly surpass your expectations, a dining destination with such rich variety it leaves you totally spoilt for choice or a lifestyle experience that is
+        fully enriching and rewarding, then look no further than Galleria Shopping Mall, the home of the unlimited experience.
+    </string>
+
+    <string name="galleria_scope">
+        Originally designed to cater for the unmet need of the Karengat area by providing a wide selection of stores with a
+        variety of products and services, Galleria Shopping Mall now stands on a class of its own as a vibrant modern shopping,
+        dining and entertainment destination serving the Karen, Langata, Rongai, Ngong, Nairobi West, South B as well as the rest
+        of Nairobi City residents.In many ways, shopping at Galleria leaves you with a feeling of the great outdoors,
+        a tribute to its unique architecture creatively designed unlike the ‘big box’ model with lots of wide open spaces
+        to let in the beautiful African weather. The mall is also adorned with a warm colour scheme to capture and reflect
+        the Kenyan red earth and the African sunset.
+
+
+    </string>
+    <string name="our_scope">Our Scope</string>
+    <string name="how_to_prepare_pizzas">How To Prepare Pizzas</string>
+    <string name="pizza_ingredients">
+        • 2 ½ cups warm water (600 mL) \n
+        • 1 teaspoon sugar \n
+        • 2 teaspoons active dry yeast \n
+        • 7 cups all-purpose flour (875 g), plus more for dusting \n
+        • 6 tablespoons extra virgin olive oil, plus more for greasing \n
+        • 1 ½ teaspoons kosher salt \n
+        • ¼ cup semolina flour (30 g)
+    </string>
+
+    <string name="pizza_steps">
+        1. Bloom the yeast by sprinkling the sugar and yeast in the warm water. Let sit for 10 minutes, until bubbles form on the surface. \n \n
+        2. In a large bowl, combine the flour and salt. Make a well in the middle and add the olive oil and bloomed yeast mixture. Using a spoon, mix until a shaggy dough begins to form. \n \n
+        3. Once the flour is mostly hydrated, turn the dough out onto a clean work surface and knead for 10-15 minutes. The dough should be soft, smooth, and bouncy. Form the dough into a taut round. \n \n
+        4. Grease a clean, large bowl with olive oil and place the dough inside, turning to coat with the oil. Cover with plastic wrap. Let rise for at least an hour, or up to 24 hours. \n \n
+        5. Punch down the dough and turn it out onto a lightly floured work surface. Knead for another minute or so, then cut into 4 equal portions and shape into rounds. \n \n
+        6. Lightly flour the dough, then cover with a kitchen towel and let rest for another 30 minutes to an hour while you prepare the sauce and any other ingredients. \n \n
+        7. Preheat the oven as high as your oven will allow, between 450-500˚F (230-260˚C). Place a pizza stone, heavy baking sheet (turn upside down so the surface is flat), or cast iron skillet in the oven. \n \n
+        8. Meanwhile, make the tomato sauce: Add the salt to the can of tomatoes and puree with an immersion blender, or transfer to a blender or food processor, and puree until smooth. \n \n
+        9. Once the dough has rested, take a portion and start by poking the surface with your fingertips, until bubbles form and do not deflate. \n \n
+        10. Then, stretch and press the dough into a thin round. Make it thinner than you think it should be, as it will slightly shrink and puff up during baking. \n \n
+        11. Sprinkle semolina onto an upside down baking sheet and place the stretched crust onto it. Add the sauce and ingredients of your choice. \n \n
+        12. Slide the pizza onto the preheated pizza stone or pan. Bake for 15 minutes, or until the crust and cheese are golden brown.
+    </string>
+    <string name="how_to_prepare_burgers">How to prepare burgers</string>
+
+    <string name="burgers_ingredients">
+        • 1 small onion , diced \n
+        • 500g good-quality beef mince \n
+        • 1 egg \n
+        • 1 tbsp vegetable oil \n
+        • 4 burger buns \n
+        • All or any of the following to serve: sliced tomato, beetroot, horseradish sauce,
+        mayonnaise, ketchup, handful iceberg lettuce, rocket, watercress
+    </string>
+
+    <string name="burgers_steps">
+        1. Tip 500g beef mince into a bowl with 1 small diced onion and 1 egg, then mix. \n \n
+        2. Divide the mixture into four. Lightly wet your hands. Carefully roll the mixture into balls, each about the size of a tennis ball.\n \n
+        3. Set in the palm of your hand and gently squeeze down to flatten into patties about 3cm thick. Make sure all the burgers are the same thickness so that they will cook evenly.\n \n
+        4. Put on a plate, cover with cling film and leave in the fridge to firm up for at least 30 mins.\n \n
+        5. Heat the barbecue to medium hot (there will be white ash over the red hot coals – about 40 mins after lighting). Lightly brush 1 side of each burger with vegetable oil.\n \n
+        6. Place the burgers, oil-side down, on the barbecue. Cook for 5 mins until the meat is lightly charred. Don’t move them around or they may stick.\n \n
+        7. Oil the other side, then turn over using tongs. Don’t press down on the meat, as that will squeeze out the juices.\n \n
+        8. Cook for 5 mins more for medium. If you like your burgers pink in the middle, cook 1 min less each side. For well done, cook 1 min more.\n \n
+        9. Take the burgers off the barbecue. Leave to rest on a plate so that all the juices can settle inside.\n \n
+        10. Slice 4 burger buns in half. Place, cut-side down, on the barbecue rack and toast for 1 min until they are lightly charred. Place a burger inside each bun, then top with your choice of accompaniment. \n \n
+    </string>
+    <string name="how_to_prepare_cocktails">How to prepare Cocktails</string>
+
+    <string name="cocktails_ingredients">
+        • 45ml lemon vodka \n
+        • 15ml triple sec \n
+        • 30ml cranberry juice \n
+        • 10ml lime juice \n
+        • ice \n
+        • For the garnish \n
+        orange zest, or a lime wedge on the rim of the glass.
+    </string>
+    <string name="cocktails_steps">
+        1. Shake ingredients with ice and strain into a cocktail glass.\n \n
+        2. To make the garnish: hold a 3cm round piece of orange zest about 10cm above your cosmo and very carefully wave it over a lit match or lighter flame.
+        Bend the outer edge of the zest in towards the flame so that the orange oils are released, then drop the zest into your drink.
+    </string>
+</resources>
