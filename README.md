@@ -8,4 +8,4 @@ The application also has a navigaton drawer. When the menu items are clicked the
 ![](screenshots/droi.png)
 ![](screenshots/droid2.png)
 ![](screenshots/droid3.png)
-![](screenshots/droid_drawer.png)
+![](screenshots/droid_drawer.jpg)
